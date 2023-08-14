@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: timja
+Build-Jdk: 11.0.9.1
+Extension-Name: azure-commons
+Specification-Title: Common APIs for Azure related Jenkins plugins
+Implementation-Title: azure-commons
+Implementation-Version: 1.1.3
+Plugin-Class: com.microsoft.jenkins.azurecommons.AzureCommonsPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: azure-commons
+Long-Name: Azure Commons Plugin
+Url: https://github.com/jenkinsci/azure-commons-plugin/blob/master/azu
+ re-commons-plugin/README.md
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.1.3
+Hudson-Version: 2.266
+Jenkins-Version: 2.266
+Mask-Classes: com.google.common.
+Plugin-Dependencies: workflow-step-api:2.23,apache-httpcomponents-clie
+ nt-4-api:4.5.10-2.0,jackson2-api:2.11.3,ssh-credentials:1.18.1
+Plugin-Developers: Xu Zhang:xuzhang:xuzhang3@microsoft.com,Tim Jacomb:
+ timja:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/azure-commons-plugin
+
